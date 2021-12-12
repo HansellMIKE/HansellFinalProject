@@ -1,0 +1,193 @@
+/**********************************************************
+Title: Baseball Facility
+Use: CSS for Hansell Baseball Academy 
+Author: Mike Hansell
+School/Term: Southern Illinois University, Fall 2021
+Developed: December 4, 2021
+Tested: December 8, 2021; Passed on Firefox and Chrome browsers.
+**********************************************************/
+
+/* position and font for the title of each page */
+h1{position: relative;
+    Top:-75px;
+    left: 300px;
+    font-family: fantasy
+}
+/* position and font for Upcoming camps on home page */
+h2{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-style: italic;
+    text-decoration: underline;
+}
+/* position the list of upcoming camps*/
+ul1{
+    position: relative;
+    top:50px
+
+}
+/* position and font for New Technology on home page */
+h3{
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    top: -100px;
+    left: 850px;
+    text-decoration: underline
+} 
+/*position link to about us page*/
+p4{
+    position: relative;
+    top:-100px;
+    left:850px
+}
+/* position and font for Our Technology on about us page */
+h4{
+    font-size: 35px;
+    text-decoration: underline
+}
+/*Position and size video on home page*/
+video{
+    width:460px;
+    height:460px;
+    position: relative;
+    top: -365px;
+    left: 290px;
+}
+/* position and font for position and font for Welcome to Hansell's Baseball Academy on Home page as well as Adittional links on about us page */
+h7{
+    font-size:35px;
+    position:relative;
+    top:100px;
+    text-decoration: underline;
+} 
+/*Position paragraph about company on home page*/
+p3{
+    position: relative;
+    top: 125px;
+    text-align: left
+}
+/*position table 1 on about us page */
+table1{
+    width:50%;
+    border: 1px solid black;
+    text-align: center;
+    float:left;
+}
+/*position table 2 on about us page */
+table2{
+    
+    width:50%;
+    border: 1px solid black;
+    text-align: center;
+    float:right;
+}
+/*position and design tables on camps and lessons page/ also designs tables on about us page*/
+table{
+    border: 10px double black;
+    border-radius: 12px;
+    padding: 5px;
+    position: relative;
+    top:25px;
+    background-color: aqua
+}
+/*design headers on all tables */
+th{
+    border: 2px solid black;
+    background-color: navy;
+    color: white;
+}
+/*design rows on all tables*/
+td{
+   border: 2px solid black;
+    background-color: lightgray
+}
+/* position and font for Meet our Staff on about us page */
+h5{
+    position: relative;
+    top:0px;
+    text-decoration: underline;
+    font-size:35px
+}
+/*position link to school website*/
+p5{
+    position:relative;
+    top:125px;
+    left:-85px
+}
+/* deletes extra padding on menu */ 
+#ol, ul{
+    padding: 0;
+    list-style: none;
+}
+
+/*align the top header */
+#top-header{
+         
+    text-align: center;
+    height: 60px;
+}
+ 
+  
+/* Styling Logo */
+
+#logo{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 60px;
+    width: 30%;
+}
+ 
+#logo img{
+    width: 60%;
+    float: left;
+    padding: 10px 0px;
+}   
+ 
+/* Styling Navigation Menu */
+
+#menu{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+/*aligns menu and creates background color*/
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background: aqua;
+}
+/*makes menu horizantal*/
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+/*changes the look of the text in menu */
+#menu li a, menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: black;
+}
+/*creates hover effect on menu*/
+#menu li:hover a, menu li span{
+    background-color: black;
+    color: aqua;
+    border: 6px double aqua;
+    text-decoration:inherit;
+}
+/*positions staff photo*/
+#staffphoto img{
+    position: relative;
+    left: 25px;
+    top:-10px;
+        
+}
